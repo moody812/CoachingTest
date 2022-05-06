@@ -4,5 +4,5 @@
 
 @section('content')
     {{-- Q3-3 --}}
-    <p>登録データ：</p>
+    <p>登録データ：{{ $data }}</p>
 @endsection

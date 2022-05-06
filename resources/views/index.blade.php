@@ -7,10 +7,10 @@
         <h2>クエリパラメーター一覧</h2>
         <ul>
             {{-- Q1-2 --}}
-            <li>食べ物：</li>
-            <li>飲み物：</li>
+            <li>食べ物：{{ $food }}</li>
+            <li>飲み物：{{ $drink }}</li>
         </ul>
     </div>
     {{-- Q2-2 --}}
-    <a href="">次のページへのリンク</a>
+    <a href="/form/{ routeParam }">次のページへのリンク</a>
 @endsection
