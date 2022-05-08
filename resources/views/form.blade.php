@@ -4,6 +4,7 @@
 
 @section('content')
     {{-- Q3-2 --}}
+    <!-- "{{ url('create') }}" -->
     <form action="/create" method="POST">
         @csrf
         <div>

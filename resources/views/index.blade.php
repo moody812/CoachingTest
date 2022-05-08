@@ -12,5 +12,8 @@
         </ul>
     </div>
     {{-- Q2-2 --}}
-    <a href="/form/{ routeParam }">次のページへのリンク</a>
+    <!-- 引数が代入されないから？ -->
+    <a href="/form/{ 'routeParam' => 'slスタジオ' }">次のページへのリンク</a>
+    <!-- 答え"{{ url('form', ['routeParam' => 'SLスタジオ']) }}" -->
+
 @endsection
